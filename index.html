@@ -1,0 +1,27 @@
+<html>
+
+  <head>
+  </head>
+  
+  <body>
+    
+    <div id="container">
+      <input type="text" id="container" placeholder="enter text" v-model="value">
+      <p>{{ value }}</p>
+    </div>
+    
+    <script src="js/vue.min.js"></script>
+    <script>
+      
+      new Vue({
+        el: '#container',
+        data: {
+          value: '',
+        },
+      });
+      
+    </script>
+    
+  </body>
+  
+</html>
