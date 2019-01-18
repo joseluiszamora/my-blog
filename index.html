@@ -26,13 +26,15 @@
 
     <!-- add alt layout here -->
     <link rel="stylesheet" href="./css/style-default.css">
-  
+    
+    <script src="js/vue.min.js"></script>  
+    
     <!-- Modernizr -->
     <script src="./js/vendor/modernizr-2.7.1.min.js"></script>
 
   </head>
   
-  <body  id="menu" class="body-page">
+  <body  id="container" class="body-page">
     <!-- Page Loader -->
     <div class="page-loader" id="page-loader">
       <div>
@@ -62,7 +64,7 @@
           <img class="light-logo" src="img/logo.png" alt="Logo">
         </span>
         <span class="text">
-          <span class="line">Simpleux</span>
+          <span class="line">{{ value }}</span>
           <span class="line sub">Portfolio Template</span>
         </span>
       </a>
@@ -1133,7 +1135,6 @@
     </footer>
     <!-- END OF site footer -->
 
-    
     <div id="container">
       <input type="text" id="container" placeholder="enter text" v-model="value">
       <p>{{ value }}</p>
@@ -1153,8 +1154,6 @@
     <!-- Javascript main files -->
     <script src="./js/main.js"></script>
 
-    <script src="js/vue.min.js"></script>
-    
     <script>
       
       new Vue({
