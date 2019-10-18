@@ -3,7 +3,7 @@
     .leftpart_inner
       .logo_wrap
         a(href='#')
-          img(src='img/logo/desktop-logo.png', alt='')
+          img(src='@/assets/img/logo/desktop-logo.png', alt='')
       .menu_list_wrap
         ul.anchor_nav
           li
