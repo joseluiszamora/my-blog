@@ -2,9 +2,8 @@
   #about.arlo_tm_section.relative
     .arlo_tm_about_wrapper_all
       .container
-        
         .arlo_tm_title_holder
-          h3 About Me
+          h3 Acerca de mi
           span Main informations about me
         
         .arlo_tm_about_wrap

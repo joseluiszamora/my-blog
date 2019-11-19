@@ -19,13 +19,13 @@
     .arlo_tm_content
       
       // LEFTPART
-      menu-main
+      .arlo_tm_leftpart_wrap.opened
+        menu-main
       // /LEFTPART
       
       // RIGHTPART
-      .arlo_tm_rightpart
+      .arlo_tm_rightpart.opened
         .rightpart_inner
-
           transition(name="fade", mode='out-in')
             router-view
       // /RIGHTPART
