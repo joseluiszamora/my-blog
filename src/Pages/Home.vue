@@ -9,11 +9,11 @@
             img(src='@/assets/img/hero/img.jpg', alt='')
           .name_holder
             h3
-              | diemo
-              span demo
+              | jose luis 
+              span zamora
           .text_typing
             p
-              | Yo soy 
+              | Web Mobile Developer
               span.arlo_tm_animation_text_word
         .arlo_tm_arrow_wrap.bounce.anchor
           router-link(to="/about")

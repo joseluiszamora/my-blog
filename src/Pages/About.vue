@@ -4,8 +4,8 @@
       .container
         
         .arlo_tm_title_holder
-          h3 About Me
-          span Main informations about me
+          h3 Acerca de Mi
+          span Un breve resumen
         
         .arlo_tm_about_wrap
           .author_wrap
@@ -19,15 +19,18 @@
                   .inner
             .rightbox
               .arlo_tm_mini_title_holder
-                h4
-                | I'm Alan Michaelis and 
+                //h4
+                  | I'm Alan Michaelis and 
                 span.arlo_tm_animation_text_word
               .definition
                 p
-                | Hi! My name is 
-                strong Alan Michaelis
-                | . I am a Web Developer, and I'm very passionate and dedicated to my work. With 20 years experience as a professional Web developer, I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from discussion and collaboration to concept and execution, but I find the most satisfaction in seeing the finished product do everything for you that it was created to do.
-              .about_short_contact_wrap
+                  | Hola! Mi nombre es 
+                  strong Jose Luis Zamora 
+                  | Soy un desarrollador web, apasionado y dedicado a mi trabajo. Con 10 años de experiencia desarrollando sistemas diversos para el ambito empresarial nacional e internacional.
+                p
+                  | Tengo los conocimientos y la experiencia necesaria para desarrollar proyectos variados de distinta indole. Con especial enfasis en el desarrollo Web y desarrollo de aplicaciones moviles.
+
+              //.about_short_contact_wrap
                 ul
                   li
                     span
@@ -73,8 +76,8 @@
                 ul
                   li
                     a(href='index.html')
-                      span Download CV
-                  li.anchor
+                      span Descargar CV
+                  //li.anchor
                     a(href='#contact')
                       span Send Message
 </template>
@@ -84,3 +87,9 @@
     name: 'About',
   }
 </script>
+
+<style scoped>
+  #about {
+    padding-top: 100px; 
+  }
+</style>

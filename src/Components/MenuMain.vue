@@ -7,17 +7,17 @@
       .menu_list_wrap
         ul.anchor_nav
           li
-            router-link(to="/") Home
+            router-link(to="/") Inicio
           li
-            router-link(to="/about") About
-          li
+            router-link(to="/about") Acerca de mi
+          // li
             router-link(to="/services") Services
           li
-            router-link(to="/portfolio") Portfolio
+            router-link(to="/portfolio") Portafolio
           li
-            router-link(to="/news") News
+            router-link(to="/news") Blog
           li
-            router-link(to="/contact") Contact
+            router-link(to="/contact") Contacto
       .leftpart_bottom
         .social_wrap
           ul

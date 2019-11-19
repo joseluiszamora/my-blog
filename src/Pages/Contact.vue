@@ -2,7 +2,7 @@
   #contact.arlo_tm_section
     .container
       .arlo_tm_title_holder.contact
-        h3 Contact Me
+        h3 Contacto
         span Get in touch with me
     .arlo_tm_footer_contact_wrapper_all
       .arlo_tm_contact_wrap_all
@@ -12,15 +12,15 @@
               h4 Get in Touch
             .short_info_wrap
               ul
-                li
+                //li
                   p
                     label Address:
                     span 123 Qwerty Avenue NYC, USA
                 li
                   p
-                    label Email:
+                    label Correo Electrónico:
                     span
-                      a(href='mailto:example@gmail.com') example@gmail.com
+                      a(href='mailto:joseluiszamorag@gmail.com') joseluiszamorag@gmail.com
                 li
                   p
                     label Phone:
@@ -48,7 +48,7 @@
                       span Send Message
       .arlo_tm_footer_wrap
         .container
-          p © Copyright 2019. All Rights are Reserved.
+          p © ZGJ 2019
 </template>
 
 <script lang="ts">
@@ -56,3 +56,9 @@
     name: 'Contact',
   }
 </script>
+
+<style scoped>
+  #contact {
+    padding-top: 93px; 
+  }
+</style>
