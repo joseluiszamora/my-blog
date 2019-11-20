@@ -6,7 +6,7 @@
         .particle_overlay
         .inner_content
           .image_wrap
-            img(src='@/assets/img/hero/img.jpg', alt='')
+            img(src='@/assets/img/hero/profile.jpg', alt='')
           .name_holder
             h3
               | jose luis 
@@ -21,14 +21,14 @@
 </template>
 
 <script lang="ts">
-  import particles from 'particlesjs'
+  // import particles from 'particlesjs'
   export default {
     name: 'Home',
     created () {
       //console.log(particles)
-      particles.init({
+      /* particles.init({
         selector: 'body'
-      });
+      }); */
     }
   }
 </script>
@@ -42,7 +42,7 @@
 .arlo_tm_universal_box_wrap.particle{
 	height: 100vh;
 	position: relative;
-	background-image: url(../assets/img/hero/3.jpg);
+	background-image: url(../assets/img/hero/5.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
