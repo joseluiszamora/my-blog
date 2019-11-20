@@ -15,7 +15,7 @@
             p
               | Sitio en Construcción
               span.arlo_tm_animation_text_word
-        .arlo_tm_arrow_wrap.bounce.anchor
+        //.arlo_tm_arrow_wrap.bounce.anchor
           router-link(to="/about")
             i.xcon-angle-double-down
 </template>
