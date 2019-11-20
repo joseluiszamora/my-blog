@@ -2,7 +2,7 @@
   .arlo_tm_mobile_header_wrap
     .main_wrap
       .logo
-        img(src='../assets/img/logo/mobile_logo.png', alt='')
+        img(src='../assets/img/logo/mobile_logo.png', alt='Jose Luis Zamora', width="220")
       .arlo_tm_trigger
         .hamburger.hamburger--collapse-r
           .hamburger-box
