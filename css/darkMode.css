@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+body.dark{background-color: #000;color: #bbb;}
+body.dark .arlo_tm_classic_menu.animate{background-color: #000;box-shadow: 0px 0px 20px rgba(255,255,255,.15)}
+body.dark .arlo_tm_classic_menu.animate .topbar_inner .logo .light{display: block;}
+body.dark .arlo_tm_classic_menu.animate .topbar_inner .logo .dark{display: none;}
+body.dark .arlo_tm_classic_menu.animate ul li a{color: #fff;}
+body.dark h3{color: #fff;}
+body.dark .arlo_tm_leftpart{background-color: #111;box-shadow: 0 0 30px rgba(255,255, 255, 0.05);}
+body.dark .arlo_tm_about .leftbox .about_image_wrap .border .inner{border-color: rgba(255,255,255,.2);}
+body.dark .arlo_tm_leftpart .inner .logo .light{display: block;}
+body.dark .arlo_tm_leftpart .inner .logo .dark{display: none;}
+body.dark .arlo_tm_leftpart .inner .menu ul li a{color: #fff;}
+body.dark .arlo_tm_leftpart .inner .menu ul li a:before{background-color: rgba(255,255,255,.02)}
+body.dark .arlo_tm_leftpart .inner .menu ul li a:after{background-color: rgba(255,255,255,.05)}
+body.dark .arlo_tm_leftpart .inner .bottom ul li a{color: #fff;}
+body.dark .arlo_tm_about ul li label{color: #fff;}
+body.dark .arlo_tm_about .about_short_contact_wrap ul li a{color: #fff;}
+body.dark .arlo_tm_services{background-color: #111;}
+body.dark .arlo_tm_services .service_inner ul li .inner{box-shadow: none;background-color: transparent;border: 1px solid rgba(255,255,255,.15)}
+body.dark .arlo_tm_portfolio .portfolio_filter ul li a{color: #fff;}
+body.dark .arlo_tm_home_news{background-color: #111;}
+body.dark .arlo_tm_home_news .news_inner ul li .inner{box-shadow: none;background-color: transparent;border: 1px solid rgba(255,255,255,.15);}
+body.dark .arlo_tm_home_news .news_inner ul li .inner .details .title h3 a{color: #fff;}
+body.dark .arlo_tm_home_news .news_inner ul li .inner .details .dates{border-bottom: 1px solid rgba(255,255,255,.1);}
+body.dark .arlo_tm_contact .fields ul li input{background-color: transparent;border: 1px solid rgba(255,255,255,.2);color: #fff;}
+body.dark .arlo_tm_contact .fields .last textarea{background-color: transparent;border: 1px solid rgba(255,255,255,.2);color:#fff;}
+body.dark .arlo_tm_about .buttons ul li a:before{background-color: #fff;}
+body.dark .arlo_tm_about .buttons ul li a:hover{color: #000;}
+body.dark .arlo_tm_portfolio_single .main_details .title{color: #fff;}
+body.dark .arlo_tm_portfolio_single .main_details .left .short li span a{color: #fff;}
+body.dark .arlo_tm_portfolio_single .main_details .right p{color: #bbb;}
+body.dark .arlo_tm_portfolio_single .main_details .left .social ul li a{color: #fff;}
+body.dark .arlo_tm_portfolio_single .extra_info h3{color: #fff;}
+body.dark .arlo_tm_portfolio_single .pagination a{color: #fff;}
+body.dark .arlo_tm_portfolio_single .pagination a:before{background-color: rgba(255,255,255,.15);}
+body.dark .arlo_tm_copyright{border-top: 1px solid rgba(255,255,255,.1);}
+body.dark .arlo_tm_blog_single .short_info ul li .list_inner a{color: #fff;}
+body.dark .arlo_tm_blog_single .main_infos blockquote{color: #fff;}
+body.dark .arlo_tm_blog_single .tags ul li a{color: #fff;border: 1px solid rgba(255,255,255,.15);}
+body.dark .arlo_tm_commentbox_wrap{background-color: #111;}
+body.dark .arlo_tm_commentbox_wrap .title h3{color: #fff;}
+body.dark .arlo_tm_commentbox_wrap .wp h3 a{color: #fff;}
+body.dark .arlo_tm_commentbox_wrap .reply_comment_wrap .input_list_wrap .input_row input{color: #fff;border-bottom-color:rgba(255,255,255,.3);}
+body.dark .arlo_tm_commentbox_wrap .reply_comment_wrap .input_list_wrap .input_row textarea{color: #fff;border-bottom-color:rgba(255,255,255,.3);}
+body.dark .arlo_tm_leftpart .inner .menu ul li a:hover{color: #e54b4b;}
+body.dark .arlo_tm_leftpart .inner .bottom ul li a:hover{color: #e54b4b;}
+body.dark .arlo_tm_portfolio .portfolio_filter ul li a.current{color: #e54b4b;}
+body.dark .arlo_tm_home_news .news_inner ul li .inner .details .title h3 a:hover{color: #e54b4b;}
+body.dark .progress_inner .background{background-color: rgba(255,255,255,.05);}
+body.dark .arlo_tm_timeline ul li .list_inner{border: 1px solid rgba(255,255,255,.15);}
+
